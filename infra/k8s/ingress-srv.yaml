@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
     - hosts:
-        - localhost
+        - ticketing.dev
       secretName: my-tls-secret
   rules:
-    - host: localhost
+    - host: ticketing.dev
       http:
         paths:
           - path: /api/users/?(.*)
